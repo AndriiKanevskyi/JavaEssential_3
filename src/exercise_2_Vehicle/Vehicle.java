@@ -13,4 +13,12 @@ public class Vehicle {
     int price;
     double speed;
     int yearOfBuild;
+
+    public Vehicle() {}
+
+    public Vehicle(int price, double speed, int yearOfBuild) {
+        this.price = price;
+        this.speed = speed;
+        this.yearOfBuild = yearOfBuild;
+    }
 }

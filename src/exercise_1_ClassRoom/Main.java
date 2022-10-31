@@ -36,6 +36,12 @@ public class Main {
         if (howManyPupils==3){ClassRoom cr = new ClassRoom(bad,standardPupil,goodPupil);}
         if (howManyPupils==2){ClassRoom cr = new ClassRoom(bad,standardPupil);}
 
+        System.out.println("А теперь Відмінник покаже для вас свої додаткові здібності");
+        System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+        exPupil.ingratiateUpToTeacher();
+        exPupil.memorize();
+        exPupil.rememberToTeacher();
+
 
 
 

@@ -27,5 +27,7 @@ public class ExcelentPupil extends Pupil {
     public void ingratiateUpToTeacher(){
         System.out.println("Відмінник  підлизвася до вчителя !");
     }
-
+    public void rememberToTeacher(){
+        System.out.println("Відмінник  пригадав вчителю що він не завдав ДЗ !");
+    }
 }

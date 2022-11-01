@@ -10,6 +10,8 @@ package exercise_2_Vehicle;
  Написати програму, яка виводить на екран інформацію про кожен засіб пересування.
  */
 public class Vehicle {
+    int positionx;
+    int getPositiony;
     int price;
     double speed;
     int yearOfBuild;

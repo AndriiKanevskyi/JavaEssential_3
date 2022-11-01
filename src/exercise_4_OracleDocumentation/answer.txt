@@ -1,0 +1,15 @@
+Поліморфізм
+https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html
+Описання поняття поліморфізму та його суті
+
+Спадкування
+https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
+Описання поняття cпадкування та його суті
+
+Перевантаження методів
+https://docs.oracle.com/javase/tutorial/java/IandI/override.html
+Описання способу перевантаження методів в классах-послідовниках, та цілі цього явшища
+
+Ключове слово super
+https://docs.oracle.com/javase/tutorial/java/IandI/super.html
+Звернення до конструкторів або методів класса предка

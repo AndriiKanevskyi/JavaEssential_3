@@ -11,13 +11,13 @@ public class Main {
         int userKey = scanner.nextInt();
 
 
-        if (userKey==ExpertDocumentWorker.expKey){
+        if (userKey==ExpertDocumentWorker.getExpKey()){
             System.out.println(" Отримано доступ до Експер-версії\n");
          ExpertDocumentWorker expAvalible = new ExpertDocumentWorker();
          expAvalible.openDocument();
          expAvalible.editDocument();
          expAvalible.saveDocument();
-        } else if (userKey==ProDocumentWorker.proKey) {
+        } else if (userKey==ProDocumentWorker.getProKey()) {
             System.out.println(" Отримано доступ до Про-версії\n");
             ProDocumentWorker proAvalible = new ProDocumentWorker();
             proAvalible.openDocument();

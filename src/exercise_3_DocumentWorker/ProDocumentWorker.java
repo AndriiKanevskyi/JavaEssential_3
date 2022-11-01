@@ -1,7 +1,12 @@
 package exercise_3_DocumentWorker;
 
 public class ProDocumentWorker extends DocumentWorker{
-    static final int proKey = 6666;
+    private static int proKey = 6666;
+
+    public static int getProKey() {
+        return proKey;
+    }
+
     public void editDocument(){
         System.out.println("Документ відредаговано");
     }
